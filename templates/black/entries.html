@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+    <body lang="en-US">
+        {{> header}}
+        <div class="entries">
+            {{#allEntries}}
+                <a href="{{{url}}}">{{title}}</a><br>
+            {{/allEntries}}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "name": "black",
+    "enabled": true,
+    "views": {
+        "entries.html": {
+            "partials": {
+                "title": "{{{title}}}",
+                "description": "The latest on {{{title}}}"
+            }
+        },
+        "entry.html": {
+            "partials": {
+                "title": "{{{entry.title}}} - {{{title}}}",
+                "description": "{{{entry.summary}}}"
+            }
+        },
+        "error.html": {
+            "partials": {
+                "title": "404 not found - {{{title}}}",
+                "description": "Error on {{{title}}}"
+            }
+        }
+    }
+}

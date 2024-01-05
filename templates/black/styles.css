@@ -1,0 +1,71 @@
+/* Inserts the CSS required by various settings on the services page of the dashboard */
+{{{appCSS}}}
+
+@font-face{
+  font-family: 'Monego';
+  src: url("/fonts/monego-regular-webfont.woff2"),
+       url("/fonts/monego-regular-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'SF Compact';
+  src: url("/fonts/SFCompact.woff2"),
+  url("/fonts/SFCompact.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'SF Compact Text';
+  src: url("/fonts/SFCompactText-Regular.woff2"),
+  url("/fonts/SFCompactText-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'SF Compact', sans-serif;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+header {
+  display: flex;
+  padding-top: 42px;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+}
+
+header h1 {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header h1 a {
+  font-family: 'Monaco', 'Monego', monospace;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+h2.error-404 {
+  margin-left: 60px;
+}
+
+div.entries, div.entry {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+div.entry p {
+  font-family: 'SF Compact Text', sans-serif;
+}
