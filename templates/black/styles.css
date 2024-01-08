@@ -57,3 +57,7 @@ div.entries, div.entry {
   margin-bottom: 50px;
   max-width: 600px;
 }
+
+div.entry h2.entry-title {
+  font-size: 21px;
+}

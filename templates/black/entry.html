@@ -4,8 +4,12 @@
     <body lang="en-US">
         {{> header}}
         <div class="entry">
-            <h3>{{entry.title}}</h3>
-            {{{entry.html}}}
+            <h2 class="entry-title">
+                {{entry.title}}
+            </h2>
+            <div class="entry-body">
+                {{{entry.html}}}
+            </div>
         </div>
         {{> footer}}
     </body>
