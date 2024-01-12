@@ -1,0 +1,7 @@
+Title: A Foreword
+
+I am starting this project as I want to get into writing. I consume a lot of written content, and at this point in time starting to write feels very natural, or even mandatory.
+
+My plan is to start small. I’ll be hyperlinking things on the web that I find interesting and share a few thoughts of my own along them. Kind of like a personal Hacker News. You may expect to see notes about computer science, visual design, interaction design, and sailing.
+
+To discuss anything, I invite you to email me here: contact[at]alphelvaci.com
